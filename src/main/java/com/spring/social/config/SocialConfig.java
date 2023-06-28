@@ -19,6 +19,7 @@ public class SocialConfig implements SocialConfigurer {
     	            env.getProperty("facebook.clientSecret")));
     }
 
+	// @Override
 	@Override
 	public UserIdSource getUserIdSource() {
 		String getUserId();
